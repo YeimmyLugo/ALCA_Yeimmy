@@ -1,0 +1,105 @@
+body {
+	background: rgb(255, 255, 255);
+	background: url(../img/dondo.jpeg);
+}
+//damos al body el fondo y el color para el fondo//
+NAV {
+	background-color: #c2fffa;
+
+}
+//brindamos a nav un color en especial el color de nuestra pagina//
+footer {
+	text-align: center;
+	border: #000000;
+	margin-top: 20px;
+}
+//En el footer alinieamos el texto damos el color negro al border y damos una margin de 20px//
+.nav-item {
+	margin-left: 10rem;
+}
+//nav-item; le damos a cada item una margin de 10rem, para que su tamaño este alineado con los otros//
+.d-flex {
+	width: 15cm;
+}
+//d-flex damos un with de 15cm para que encaje con cada uno de ellos//
+.card {
+	margin-top: 10px;
+	text-align: center;
+}
+//damos a las cards un margin y alineamos su texto para poder alinear cada card//
+.row {
+	margin-top: 6px
+}
+//Le damos a la caja contenedora un magin para poder alinear cada uno de los objetos//
+.ec-stars-wrapper {
+	font-size: 10;
+	display: inline-block;
+}
+//a las estrellas le damos un font-size de 10//
+.ec-stars-wrapper a {
+	text-decoration: none;
+	display: inline-block;
+	font-size: 32px;
+	font-size: 2rem;
+	color: #888;
+}
+//a las stars damos una decoracion un color y tambien una forma la cual permita mostrar sus opciones (1,2,3,4,5)//
+.text {
+	text-align: center;
+}
+//alineamos su texto//
+.ec-stars-wrapper:hover a {
+	color: rgb(39, 130, 228);
+}
+//damos color azul a las stars//
+.ec-stars-wrapper>a:hover~a {
+	color: #888;
+}
+//damos color gris a las estrellas sin marcar//
+.cards {
+	text-align: center;
+}
+//alineamos el texto de las card//
+
+button {
+	margin-top: 5rem;
+	background-color: #FFDBFB;
+}
+//A cada button damos un margin rem y un color para que alinen//
+.img {
+	text-align: center;
+	margin-top: 2rem;
+}
+//damos una margen y centramos el texto//
+.text {
+	text-align: center;
+	margin-top: 2rem;
+}
+//damos una margen y centramos el texto//
+.button1 {
+	text-align: center;
+	margin-top: 5rem;
+}
+//damos una margin top y centramos el texto//
+.form-control-feedback {
+	position: absolute;
+	padding: 10px;
+	pointer-events: none;
+}
+//Damos posiciones alineamos y damos diferentes opciones para dar estilo a nuestro elemento//
+.form-control {
+	padding-left: 30px !important;
+}
+//damos un padding para alinear//
+.text1 {
+	margin-top: 2rem;
+}
+//A nuestro texto damos fuente y una margin//
+#login{
+	text-align: center;
+}
+//Al login damos un "text center", para alinear su texto"
+.fin{
+	margin-top: 3rem;
+}
+//damos magin a la clase fin//
