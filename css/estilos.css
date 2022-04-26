@@ -1,0 +1,107 @@
+body {
+  background: white;
+  background: url(../img/dondo.jpeg);
+}
+
+NAV {
+  background-color: #c2fffa;
+}
+
+footer {
+  text-align: center;
+  border: #000000;
+  margin-top: 20px;
+}
+
+.nav-item {
+  margin-left: 10rem;
+}
+
+.d-flex {
+  width: 15cm;
+}
+
+.card {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.row {
+  margin-top: 6px;
+}
+
+.ec-stars-wrapper {
+  font-size: 10;
+  display: inline-block;
+}
+
+.ec-stars-wrapper a {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 32px;
+  font-size: 2rem;
+  color: #888;
+}
+
+.text {
+  text-align: center;
+}
+
+.ec-stars-wrapper:hover a {
+  color: #2782e4;
+}
+
+.ec-stars-wrapper > a:hover ~ a {
+  color: #888;
+}
+
+.cards {
+  text-align: center;
+}
+
+button {
+  margin-top: 5rem;
+  background-color: #FFDBFB;
+}
+
+.img {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.text {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.button1 {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.form-control-feedback {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+.form-control {
+  padding-left: 30px !important;
+}
+
+.text1 {
+  margin-top: 2rem;
+}
+
+#login {
+  text-align: center;
+}
+
+.fin {
+  margin-top: 3rem;
+}
+
+aside {
+  margin: auto;
+}
+/*# sourceMappingURL=estilos.css.map */
