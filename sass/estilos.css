@@ -1,6 +1,6 @@
 body {
-  background: white;
-  background: url(../img/dondo.jpeg);
+  background: rgb(255, 255, 255);
+  background: url(/img/dondo.jpeg);
 }
 
 NAV {
@@ -48,7 +48,7 @@ footer {
 }
 
 .ec-stars-wrapper:hover a {
-  color: #2782e4;
+  color: rgb(39, 130, 228);
 }
 
 .ec-stars-wrapper > a:hover ~ a {
@@ -70,8 +70,8 @@ button {
 }
 
 .text {
-  text-align: center;
   margin-top: 2rem;
+  text-align: center;
 }
 
 .button1 {
@@ -100,4 +100,11 @@ button {
 .fin {
   margin-top: 3rem;
 }
-/*# sourceMappingURL=estilos.css.map */
+
+aside {
+  margin: auto;
+}
+
+article {
+  text-align: center;
+}/*# sourceMappingURL=estilos.css.map */

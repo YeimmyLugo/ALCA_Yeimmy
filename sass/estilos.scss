@@ -1,6 +1,6 @@
 body {
 	background: rgb(255, 255, 255);
-	background: url(../img/dondo.jpeg);
+	background: url(/img/dondo.jpeg);
 }
 //damos al body el fondo y el color para el fondo//
 NAV {
@@ -72,8 +72,8 @@ button {
 }
 //damos una margen y centramos el texto//
 .text {
-	text-align: center;
 	margin-top: 2rem;
+	text-align: center;
 }
 //damos una margen y centramos el texto//
 .button1 {
@@ -106,4 +106,7 @@ button {
 aside{
  
  margin: auto;
+}
+article{
+	text-align: center;
 }
